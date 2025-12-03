@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    /* Font Family */
+    --font-1: 'Poppins', Arial, Helvetica, sans-serif;
+    --font-2: 'Lato', Arial, Helvetica, sans-serif;
+    --font-3: 'Playfair', Arial, Helvetica, sans-serif;
+
+    /* Font Size */
+    --font-1-xxl-b: 700 4rem/1.35 var(--font-1);
+    --font-1-xl: 400 2.5rem/1.35 var(--font-1);
+    --font-1-l: 400 1.5rem/1.35 var(--font-1);
+    --font-1-l-b: 700 1.5rem/1.35 var(--font-1);
+    --font-2-l: 400 1.5rem/1.35 var(--font-2);
+    --font-2-l-b: 700 1.5rem/1.35 var(--font-2);
+    --font-2-m: 400 1.25rem/1.35 var(--font-2);
+    --font-2-xs: 700 .6rem/1.35 var(--font-2);
+    --font-3-m: 400 1.25rem/1.35 var(--font-3);
+   
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+body, a {
+    font-family: var(--font-1);
+    color: var(--s1);
+}
+
+h1, h2{
+    font-family: var(--font-1);
+    font: var(--font-1-xxl-b);
+}
+
+@media (max-width: 420px) {
+    h1, h2{
+        font: var(--font-1-xl);
+        font-weight: 700;
+    }
+}

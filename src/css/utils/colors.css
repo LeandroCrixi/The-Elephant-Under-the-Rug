@@ -1,0 +1,23 @@
+:root{
+    /* Primary colors */
+    --p1: #00AEEF;
+    --p2: #6A1B9A;
+    --p2-l: #DDBBFF;
+    --p3: #FFFFFF;
+
+    /* Secondary colors */
+    --s1: #4A4A4A;
+    --s1-l: #D1D1D1;
+    --s2: #E6D9F3;
+    --s3: #EAF4F9;
+
+    --h1: #D4A017;
+}
+
+.p2{
+    color: var(--p2);
+}
+
+.h1{
+    color: var(--h1);
+}
