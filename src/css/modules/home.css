@@ -76,8 +76,10 @@
     gap: 24px;
 
     & .how-work-features {
-        justify-items: center;
         max-width: 392px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         & div {
             height: 80px;
@@ -101,6 +103,7 @@
             font: var(--font-2-l-b);
             padding: 20px 0px;
             text-transform: uppercase;
+            text-align: center;
         }
 
         & p {
@@ -357,8 +360,8 @@
     }
 }
 
-@media (max-width: 420px){
-    .creator{
+@media (max-width: 420px) {
+    .creator {
         flex-direction: column-reverse;
     }
 }
@@ -390,7 +393,7 @@
             padding: 40px 0px;
         }
 
-        & a{
+        & a {
             margin-right: 0px;
             margin: 40px 0px;
         }
