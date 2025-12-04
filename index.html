@@ -2,6 +2,17 @@
 <html lang="en">
 
 <head>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V8RGSR4G5C"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-V8RGSR4G5C');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -67,7 +78,8 @@
                 innovation just
                 waiting to be uncovered.</p>
             <div class="header-btn">
-                <a class="btn btn1 bold" href="">Meet the Elephant</a>
+                <a class="btn btn1 bold" href="https://innovativemanagementtools.com/2025/12/04/challenge-the-elephant/"
+                    target="_blank" rel="noopener noreferrer">Meet the Elephant</a>
                 <a class="btn btn2" href="mailto:pdseaton@innovativemanagementtools.com">Book a Chat</a>
             </div>
         </div>
@@ -236,8 +248,38 @@
 
         <div class="line"></div>
 
-        <p class="copy">© 2025 Innovative Management Tools. All rights reserved.</p>
+        <p class="copy">© <span id="current-year"></span> Innovative Management Tools. All rights reserved.</p>
     </footer>
+
+    <!-- Update the year at the footer dynamically -->
+    <script>
+        const currentYear = () => {
+            return document.getElementById('current-year').textContent = new Date().getFullYear();
+        }
+        currentYear()
+    </script>
+
+    <!-- Cookie Consent Banner (Insites) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", () => {
+            window.cookieconsent.initialise({
+                palette: {
+                    popup: { background: "#4A4A4A" },
+                    button: { background: "#6A1B9A", color: '#FFFFFF' }
+                },
+                theme: "edgeless",
+                content: {
+                    message: "This site uses cookies to improve your experience.",
+                    dismiss: "OK",
+                    // link: "Privacy Policy",
+                    // href: "/privacy-policy"
+                }
+            });
+        });
+    </script>
+
 </body>
 
 </html>
