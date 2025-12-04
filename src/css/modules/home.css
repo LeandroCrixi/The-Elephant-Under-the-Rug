@@ -59,7 +59,7 @@
     }
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1100px) {
     .problem .problem-content {
         flex-direction: column;
         gap: 40px;
@@ -113,7 +113,7 @@
     }
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1100px) {
     .how-work {
         flex-direction: column;
         gap: 40px;
@@ -193,7 +193,7 @@
     }
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1100px) {
     .product {
         & .video iframe {
             max-width: 700px;
@@ -250,6 +250,7 @@
         & p {
             padding-bottom: 80px;
             width: 80%;
+            font: var(--font-2-l);
         }
 
         & .btn1 {
@@ -259,7 +260,9 @@
         & .info {
             font: var(--font-2-xs);
             padding-top: 20px;
+            padding-bottom: 0px;
             text-align: right;
+            margin-left: 140px;
         }
     }
 
@@ -267,14 +270,14 @@
         position: relative;
 
         & .decoration {
-            height: 460px;
+            height: 400px;
             top: 40px;
             left: 40px;
         }
     }
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1100px) {
     .survey {
         flex-direction: column;
         gap: 40px;
@@ -304,6 +307,7 @@
 
                 .info {
                     text-align: center;
+                    margin-left: 0px;
                 }
             }
         }
@@ -346,7 +350,7 @@
     }
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1100px) {
     .creator {
         flex-direction: column-reverse;
         gap: 40px;
@@ -388,7 +392,7 @@
     }
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1100px) {
     .game {
         flex-direction: column;
         gap: 40px;
